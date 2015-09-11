@@ -1,0 +1,12 @@
+Changelog for degoyaActionButton
+
+degoyaActionButton 1.0.0beta2
+====================================
+
+- added Errorhandling
+- added basic lexicon support
+
+degoyaActionButton 1.0.0beta1
+====================================
+
+- Initial release
