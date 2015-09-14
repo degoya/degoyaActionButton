@@ -1,8 +1,8 @@
 ----------------------------
 Extra: degoyaActionButton
 ----------------------------
-Version: 1.0.0
-Released: 2015-09-11
+Version: 1.0.0beta3
+Released: 2015-09-14
 Author: Alexander Herling / DEGOYA medienkommunikation oHG <a.herling@degoya.de>
 License: GNU GPLv2 (or later at your option)
 
@@ -10,7 +10,7 @@ About
 A custom Button template variable field type for MODX Revolution (2.3+).
 You can use to call Snippets from the Resource in the Manager to fire Actions.
 
- 
+
 Features
 This custom MODX Revolution TV that can be used to fire Snippet calls from on a Resource in the Manager.
 
