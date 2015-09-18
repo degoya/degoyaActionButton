@@ -17,19 +17,18 @@ MODx.load({
     ,labelAlign: 'top'
     ,border: false
     ,items: [{
-        xtype: 'combo-boolean'
-        ,fieldLabel: _('required')
-        ,description: MODx.expandHelp ? '' : _('required_desc')
-        ,name: 'inopt_allowBlank'
-        ,hiddenName: 'inopt_allowBlank'
-        ,id: 'inopt_allowBlank{/literal}{$tv}{literal}'
-        ,value: params['allowBlank'] == 0 || params['allowBlank'] == 'false' ? false : true
+        xtype: 'textfield'
+        ,fieldLabel: '{/literal}{$degoyaActionButton.btnCaptionTitle}{literal}'
+        ,description: MODx.expandHelp ? '' : '{/literal}{$degoyaActionButton.btnCaptionHelp}{literal}'
+        ,name: 'inopt_caption'
+        ,id: 'inopt_caption{/literal}{$tv}{literal}'
+        ,value: params['caption'] || ''
         ,width: 200
         ,listeners: oc
     },{
         xtype: MODx.expandHelp ? 'label' : 'hidden'
-        ,forId: 'inopt_allowBlank{/literal}{$tv}{literal}'
-        ,html: _('required_desc')
+        ,forId: 'inopt_caption{/literal}{$tv}{literal}'
+        ,html: '{/literal}{$degoyaActionButton.btnCaptionHelp}{literal}'
         ,cls: 'desc-under'
     }]
     ,renderTo: 'tv-input-properties-form{/literal}{$tv}{literal}'

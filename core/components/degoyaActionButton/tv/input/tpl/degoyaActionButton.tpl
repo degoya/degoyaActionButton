@@ -1,4 +1,4 @@
-<span onclick="btnAction()" id="tv-actionbutton-{$tv->id}" class="x-btn x-btn-small x-btn-icon-small-left x-btn-degoyaactionbutton x-btn-noicon" data-value="{$tv->get('value')|escape}" unselectable="on">{$buttonCaption}</span>
+<span onclick="btnAction('{$id}','{$tv->get('value')|escape}')" id="tv-actionbutton-{$tv->id}" class="x-btn x-btn-small x-btn-icon-small-left x-btn-degoyaactionbutton x-btn-noicon" data-value="{$tv->get('value')|escape}" unselectable="on">{$buttonCaption}</span>
 
 <script type="text/javascript">
 // <![CDATA[
@@ -11,9 +11,7 @@
           icon: Ext.MessageBox.INFO
          });
     }
-    function btnAction() {
-        var resource = '{/literal}{$id}{literal}';
-        var snippet = '{/literal}{$tv->get('value')|escape}{literal}';
+    function btnAction( resource, snippet) {
         Ext.Msg.confirm( _('degoyaActionButton.msg.confirm.title'),  _('degoyaActionButton.msg.confirm.copy'), function (id, value) {
                             if (id === 'yes') {
         Ext.Ajax.request({

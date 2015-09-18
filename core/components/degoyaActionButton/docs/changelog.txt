@@ -1,9 +1,18 @@
 Changelog for degoyaActionButton
 
+degoyaActionButton 1.0.0beta7
+====================================
+
+- added button caption to tv options with lexicon fallback
+- added support for multiple buttons on each resource
+
+
+
 degoyaActionButton 1.0.0beta6
 ====================================
 
 - added button caption from lexicon
+
 
 degoyaActionButton 1.0.0beta5
 ====================================
@@ -21,11 +30,13 @@ degoyaActionButton 1.0.0beta3
 
 - Lexicon Bugfix
 
+
 degoyaActionButton 1.0.0beta2
 ====================================
 
 - added Errorhandling
 - added basic lexicon support
+
 
 degoyaActionButton 1.0.0beta1
 ====================================
