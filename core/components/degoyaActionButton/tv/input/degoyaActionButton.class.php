@@ -12,8 +12,10 @@ class DegoyaActionButtonInputRender extends modTemplateVarInputRender {
         $id = $_REQUEST['id'];
         $this->setPlaceholder('default',$default);
         $this->setPlaceholder('id',$id);
+
     }
     public function getTemplate() {
+    	$this->modx->lexicon->load('degoyaActionButton');
         return $this->modx->getOption('core_path',null,MODX_CORE_PATH).'components/degoyaActionButton/tv/input/tpl/degoyaActionButton.tpl';
     }
 }

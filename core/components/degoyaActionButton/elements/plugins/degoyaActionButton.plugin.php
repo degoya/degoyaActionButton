@@ -6,6 +6,8 @@
  *
  */
 $corePath = $modx->getOption('core_path',null,MODX_CORE_PATH).'components/degoyaActionButton/';
+$modx->controller->addLexiconTopic('degoyaActionButton:default');
+
 switch ($modx->event->name) {
     case 'OnTVInputRenderList':
         $modx->event->output($corePath.'tv/input/');

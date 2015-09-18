@@ -1,5 +1,10 @@
 Changelog for degoyaActionButton
 
+degoyaActionButton 1.0.0beta5
+====================================
+
+- another lexicon load Bugfix
+
 degoyaActionButton 1.0.0beta4
 ====================================
 
