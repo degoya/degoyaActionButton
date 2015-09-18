@@ -3,10 +3,10 @@ MODX custom Action Button TV
 
 
 ### Version:
-1.0.0beta3
+1.0.0beta4
 
 ### Released:
-2015-09-14
+2015-09-18
 
 ### Author:
 Alexander Herling / DEGOYA medienkommunikation oHG <a.herling@degoya.de>
