@@ -1,7 +1,7 @@
 ----------------------------
 Extra: degoyaActionButton
 ----------------------------
-Version: 1.0.0beta5
+Version: 1.0.0beta6
 Released: 2015-09-18
 Author: Alexander Herling / DEGOYA medienkommunikation oHG <a.herling@degoya.de>
 License: GNU GPLv2 (or later at your option)

@@ -12,6 +12,8 @@ class DegoyaActionButtonInputRender extends modTemplateVarInputRender {
         $id = $_REQUEST['id'];
         $this->setPlaceholder('default',$default);
         $this->setPlaceholder('id',$id);
+        $this->modx->lexicon->load('degoyaActionButton');
+        $this->setPlaceholder('buttonCaption',$this->modx->lexicon('degoyaActionButton.btn.caption',array('snippetname' => $default)));
 
     }
     public function getTemplate() {

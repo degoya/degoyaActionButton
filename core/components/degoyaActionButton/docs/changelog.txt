@@ -1,5 +1,10 @@
 Changelog for degoyaActionButton
 
+degoyaActionButton 1.0.0beta6
+====================================
+
+- added button caption from lexicon
+
 degoyaActionButton 1.0.0beta5
 ====================================
 

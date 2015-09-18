@@ -1,4 +1,5 @@
-<span onclick="btnAction()" id="tv-actionbutton-{$tv->id}" class="x-btn x-btn-small x-btn-icon-small-left x-btn-degoyaactionbutton x-btn-noicon" unselectable="on">Call Snippet {$tv->get('value')|escape}</span>
+<span onclick="btnAction()" id="tv-actionbutton-{$tv->id}" class="x-btn x-btn-small x-btn-icon-small-left x-btn-degoyaactionbutton x-btn-noicon" data-value="{$tv->get('value')|escape}" unselectable="on">{$buttonCaption}</span>
+
 <script type="text/javascript">
 // <![CDATA[
 {literal}
