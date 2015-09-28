@@ -23,13 +23,29 @@ MODx.load({
         ,name: 'inopt_caption'
         ,id: 'inopt_caption{/literal}{$tv}{literal}'
         ,value: params['caption'] || ''
-        ,width: 200
+        ,width: '99%'
         ,listeners: oc
     },{
         xtype: MODx.expandHelp ? 'label' : 'hidden'
         ,forId: 'inopt_caption{/literal}{$tv}{literal}'
         ,html: '{/literal}{$degoyaActionButton.btnCaptionHelp}{literal}'
         ,cls: 'desc-under'
+    },{
+        xtype: 'combo-boolean'
+        ,fieldLabel: '{/literal}{$degoyaActionButton.saveTitle}{literal}'
+        ,description: MODx.expandHelp ? '' : '{/literal}{$degoyaActionButton.saveHelp}{literal}'
+        ,name: 'inopt_saveResource'
+        ,hiddenName: 'inopt_saveResource'
+        ,id: 'inopt_saveResource{/literal}{$tv}{literal}'
+        ,value: !(params['saveResource'] == 0 || params['saveResource'] == 'false')
+        ,anchors: '98%'
+        ,width: '99%'
+        ,listeners: oc
+    }, {
+        xtype: MODx.expandHelp ? 'label' : 'hidden',
+        forId: 'inopt_saveResource{/literal}{$tv}{literal}',
+        html: '{/literal}{$degoyaActionButton.saveHelp}{literal}',
+        cls: 'desc-under'
     }]
     ,renderTo: 'tv-input-properties-form{/literal}{$tv}{literal}'
 });

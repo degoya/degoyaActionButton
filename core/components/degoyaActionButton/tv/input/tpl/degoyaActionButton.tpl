@@ -15,8 +15,17 @@
       Ext.Msg.confirm( _('degoyaActionButton.msg.confirm.title'),  _('degoyaActionButton.msg.confirm.copy'), function (id, value) {
         if (id === 'yes') {
           if (saveresource == 1) {
-            Ext.getCmp('modx-panel-resource').submit();
+            //Ext.getCmp('modx-panel-resource').submit();
+            //var p = Ext.getCmp('modx-panel-resource');
+            //p.getForm();
+            //p.submit(true);
+            //p.submit().scope;
+            //Ext.getCmp('modx-panel-resource').submit().scope;
+            //Ext.getCmp('modx-panel-resource').call(Ext.getCmp('submit').scope);
+            alert('we are still on beta and the save feature is not fully implemented');
+
           }
+
           Ext.Ajax.request( {
               url : '../assets/components/degoyaActionButton/controllers/degoyaActionButtonController.php',
               method: 'POST',

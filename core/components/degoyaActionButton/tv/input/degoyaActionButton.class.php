@@ -4,7 +4,7 @@
  *
  * @var modX $this->modx
  * @var modTemplateVar $this
- * 
+ *
  */
 class DegoyaActionButtonInputRender extends modTemplateVarInputRender {
     public function process($value,array $params = array()) {
@@ -13,16 +13,16 @@ class DegoyaActionButtonInputRender extends modTemplateVarInputRender {
         } else {
             $value = $this->tv->get('default_text');
         }
-        
-        
+
+
         $id = $_REQUEST['id'];
         $this->setPlaceholder('value',$value);
         $this->setPlaceholder('id',$id);
+        $this->setPlaceholder('saveResource',$params['saveResource']);
         $this->modx->lexicon->load('degoyaActionButton');
         $captionLexicon = $this->modx->lexicon('degoyaActionButton.btn.caption',array('snippetname' => $value));
         $caption = !empty($params['caption']) ? $params['caption'] : $captionLexicon;
         $this->setPlaceholder('buttonCaption',$caption);
-
     }
     public function getTemplate() {
     	$this->modx->lexicon->load('degoyaActionButton');

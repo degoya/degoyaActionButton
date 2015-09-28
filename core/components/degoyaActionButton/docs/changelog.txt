@@ -1,11 +1,17 @@
 Changelog for degoyaActionButton
 
+degoyaActionButton 1.0.0beta8
+====================================
+
+- updated english lexicon file
+- added on save resource option to the TV (save not working yet)
+
+
 degoyaActionButton 1.0.0beta7
 ====================================
 
 - added button caption to tv options with lexicon fallback
 - added support for multiple buttons on each resource
-
 
 
 degoyaActionButton 1.0.0beta6
