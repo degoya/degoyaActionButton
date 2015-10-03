@@ -3,10 +3,10 @@ MODX custom Action Button TV
 
 
 ### Version:
-1.0.0beta8
+1.0.0beta9
 
 ### Released:
-2015-09-28
+2015-10-03
 
 ### Author:
 Alexander Herling / DEGOYA medienkommunikation oHG <a.herling@degoya.de>
@@ -25,5 +25,12 @@ This can be useful when you like to update i.E. Facebook, Google+ or Twitter Sta
 
 # Installation
 Install Package via MODX Package Management.
-Then simply create a new TV with the input type type set to degoyaActionButton and enter the snippet name you like to trigger as defaultvalue. Check the Sample snippet to see how your snippet should be formed.
+Then simply create a new TV with the input type type set to degoyaActionButton.
+Select the snippet you like to trigger, the snippet must return 'success'.
+If you like you can set a Caption for the Button in the TV Options.
+If you leave the caption option empty, the caption from the lexicon will be used.
+Added first version of resource save, maybe still not working with some extras.
+Select if you like to have a Confirmation Dialog befor the snippet is called.
+Select to display Result Message (Success/Error).
+
 That's it, have fun!

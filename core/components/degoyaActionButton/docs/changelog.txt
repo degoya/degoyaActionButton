@@ -1,5 +1,16 @@
 Changelog for degoyaActionButton
 
+degoyaActionButton 1.0.0beta9
+====================================
+
+- fixed installtion path
+- added snippet select to input options
+- removed 1 after button caption when save resource was enabled
+- added option to disable confirm dialog
+- added option to disable result message (error/success)
+- added first version of saving the resource before snippet is called (maybe not working with some extras)
+
+
 degoyaActionButton 1.0.0beta8
 ====================================
 

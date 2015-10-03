@@ -2,6 +2,6 @@ degoyaActionButton
 
 With this custom TV field you can call Snippets from a Resource in the Manager to fire Actions.
 
-Install Package via MODX Package Management.Then simply create a new TV with the input type type set to degoyaActionButton and enter the snippet name you like to trigger as defaultvalue.
- 
+Install Package via MODX Package Management.Then simply create a new TV with the input type type set to degoyaActionButton and select the snippet name you like to trigger.
+
 For extra more documentation view the readme.txt
