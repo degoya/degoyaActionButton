@@ -23,6 +23,11 @@ You can use to call Snippets from the Resource in the Manager to fire Actions.
 This custom MODX Revolution TV that can be used to fire Snippet calls from on a Resource in the Manager.
 This can be useful when you like to update i.E. Facebook, Google+ or Twitter Status with Content of a Resource.
 
+# Languages
+feel free to contribute. 
+- English
+- German
+
 # Installation
 Install Package via MODX Package Management.
 Then simply create a new TV with the input type type set to degoyaActionButton.
